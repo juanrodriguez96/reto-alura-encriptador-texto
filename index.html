@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/assets/Logo.png" alt="Logo de Alura">
+    </header>
+    <main class="interfaz-encriptador">
+
+        <section class="texto-ingresar">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="advertencia">
+                <h6 class="informacion"><img class="signo-advertencia" src="/assets/signo-advertencia.png" alt="Signo de advertencia">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="resultado">
+            <textarea class="mensaje" class="20" rows="10"></textarea>
+            <!--<img class="muneco" src="/assets/muñeco.png">-->
+            <div>
+                <button class="btn-copiar" ">Copiar</button>
+            </div>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    background-color: #f3f5fc;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.interfaz-encriptador{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    gap: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0a3871;
+    /*margin-top: 90px;*/
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #0a3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+
+.advertencia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+/*resultado {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.btn-copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    /*margin-top: 402px;
+    margin-left: 108px;*/
+    width: 336px;
+    height: 67px;
+}
+
+.mensaje {
+    background: white;
+    display: flex;
+    border: none;
+    border-radius: 32px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
